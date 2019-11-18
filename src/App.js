@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
+import axios from 'axios';
 
 class App extends React.Component {
 
@@ -15,7 +16,7 @@ class App extends React.Component {
     };
   }
 
-  getResumeData() {
+  getResumeData1() {
     $.ajax({
       url: '/resumeData.json',
       dataType:'json',
@@ -25,9 +26,19 @@ class App extends React.Component {
       }.bind(this),
       error: function(xhr, status, err) {
         console.log(err);
-        alert(err);
+        alert("no data found " + err);
       }
     });
+  }
+
+  async getResumeData() {
+    try{
+      const response = await axios.get('resumeData.json');
+      alert('data is' + response.data);
+      this.setState({resumeData: response.data});
+    } catch(error){
+      alert("cannot get resume data from json");
+    }
   }
 
   componentDidMount() {
