@@ -34,15 +34,17 @@ class App extends React.Component {
   async getResumeData() {
     try{
       const response = await axios.get('resumeData.json');
-      alert('data is' + response.data);
+      console.log('data is' + response.data);
       this.setState({resumeData: response.data});
     } catch(error){
-      alert("cannot get resume data from json");
+      console.log("cannot get resume data from json");
     }
   }
 
   componentDidMount() {
+    console.log('inside did mount');
     this.getResumeData();
+    console.log('after did mount');
   }
 
   render() {
