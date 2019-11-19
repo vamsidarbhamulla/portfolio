@@ -2,7 +2,7 @@
   "main": {
     "name":"Vamsi Krishna Darbhamulla",
     "occupation":"Software Engineer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"Break systems/apps like a QA \n, code like a Dev and \n deploy and maintain system/apps like dev-ops. ",
     "image":"vamsiprofilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -24,7 +24,7 @@
       },
       {
         "name":"linkedin",
-        "url":"www.linkedin.com/in/vamsikrishna0207",
+        "url":"https://www.linkedin.com/in/vamsikrishna0207",
         "className":"fa fa-linkedin"
       },
       {
@@ -35,12 +35,12 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Java 8, Java 11 , Kotlin, Swift, Javascript, Android, Xcuitest, AWS Cognito, AWS EC2, ReactJs",
     "education":[
       {
         "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
+        "degree":"Bachelors in Information Technology",
+        "graduated":"April 2008",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
