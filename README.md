@@ -14,4 +14,4 @@ You can find actual hosted <a href="https://vamsidarbhamulla.github.io/portfolio
 <a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a><br />
 
 ##### Header photo credit
-<a href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Casey Horner</a>
+<a href="https://unsplash.com/@fortheking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clayton Caldwell</a>
