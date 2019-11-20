@@ -2,10 +2,10 @@
   "main": {
     "name":"Vamsi Krishna Darbhamulla",
     "occupation":"Software Engineer",
-    "description":"Break systems/apps like a QA \n, code like a Dev and \n deploy and maintain system/apps like dev-ops. ",
+    "description":"I break applications like a QA \n, code like a full-stack Dev and \n deploy/maintain system/apps like dev-ops.",
     "image":"vamsiprofilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"A Software engineer with CI/CD perspective and creating maintainable software applications with a greater detail on architecture/design-patterns/datastructures & algorithms.",
+    "contactmessage":"You can reach me",
     "email": "vamsi.krishna0207@gmail.com",
     "phone": "604-728-7452",
     "address":{
@@ -14,8 +14,8 @@
       "state":"BC",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://vamsidarbhamulla.github.io/portfolio",
+    "resumedownload":"http://vamsidarbhamulla.github.io/portfolio",
     "social":[
       {
         "name":"twitter",
@@ -35,18 +35,12 @@
     ]
   },
   "resume":{
-    "skillmessage":"Java 8, Java 11 , Kotlin, Swift, Javascript, Android, Xcuitest, AWS Cognito, AWS EC2, ReactJs",
+    "skillmessage":"Java , Kotlin, Swift, Javascript, Android, Xcuitest, AWS Cognito, AWS EC2",
     "education":[
       {
-        "school":"University?",
+        "school":"M.V.G.R.College Of Engineering",
         "degree":"Bachelors in Information Technology",
         "graduated":"April 2008",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
@@ -67,44 +61,52 @@
     "skills":[
       {
         "name":"Git",
+        "level":"100%"
+      },
+      {
+        "name":"Java",
+        "level":"100%"
+      },
+      {
+        "name":"Architecture/Design Patterns",
+        "level":"80%"
+      },
+      {
+        "name":"Datastrcutres and Algorithms",
+        "level":"70%"
+      },
+      {
+        "name":"Swift",
+        "level":"80%"
+      },
+      {
+        "name":"Kotlin",
+        "level":"80%"
+      },
+      {
+        "name":"Python",
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"AWS",
+        "level":"60%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Testing",
+        "level":"100%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Serenity Cucumber bdd screenplay tests",
+        "category":"A project that presents an approach using bdd to run automation tests using serenity , cucumber, dockeropen-source java based api to run automation tests using underlying ",
         "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://github.com/vamsidarbhamulla/serenity-cucumber-bdd-screenplay"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"Serenity bdd maven-junit-example",
         "category":"(offline now) A fighting gear company I started",
         "image":"fury-fighting-gear.jpg",
         "url":"http://www.timbakerdev.com"
